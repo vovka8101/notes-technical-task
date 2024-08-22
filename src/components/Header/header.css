@@ -1,0 +1,23 @@
+.header {
+  padding: 16px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid #333;
+
+  .nav {
+    display: flex;
+    gap: 20px;
+
+    a.active {
+      text-decoration: underline;
+      pointer-events: none;
+      cursor: default;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+}

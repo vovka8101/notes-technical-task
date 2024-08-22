@@ -1,0 +1,21 @@
+.view-note {
+
+  .note-content {
+    position: relative;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: var(--background-col);
+    border-radius: 10px;
+    border: 1px solid white;
+
+    .date-info {
+      font-size: .875rem;
+
+      .date-value {
+        color: chocolate;
+      }
+    }
+  }
+}

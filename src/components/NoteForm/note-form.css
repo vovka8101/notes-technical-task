@@ -1,0 +1,38 @@
+.new-note-form {
+  max-width: 992px;
+  margin-inline: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: var(--add-note-bg-col);
+
+  .form-group {
+
+    .label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .new-note-input {
+      padding: 8px 12px;
+      border-radius: 4px;
+    }
+
+    .new-note-input--name {
+      width: 100%;
+      max-width: 390px;
+    }
+
+    .new-note-input--content {
+      width: 100%;
+      min-height: 100px;
+      resize: none;
+    }
+
+    .new-note-btns {
+      display: flex;
+      gap: 16px;
+    }
+  }
+}
